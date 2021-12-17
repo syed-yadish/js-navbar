@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS-NAV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="#" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <h2 class="logo">R.E.A.C.T</h2>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="#"><span class="material-icons">home</span>Home</a>
+        <a href="#"
+          ><span class="material-icons"
+            ><span class="material-icons"> shopping_cart </span></span
+          >Products</a
+        >
+        <a href="#"><span class="material-icons">groups</span>Team</a>
+        <a href="#"><span class="material-icons">mail</span>Messages</a>
+        <a href="#"><span class="material-icons">support_agent</span>Support</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    </div>
+    <div class="container">
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn">Open Modal</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus, placeat aliquam? Nostrum vero fugiat rem, itaque
+            molestias ipsa quae facilis.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
